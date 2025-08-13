@@ -1,5 +1,5 @@
 project-name/
-├── README.md                 # 프로젝트 설명
+├── README.md                 # 프로젝트 설명<br />
 ├── requirements.txt          # 필요한 라이브러리 목록
 ├── data/
 │   ├── raw/                   # 원본 데이터 (수정 금지)
