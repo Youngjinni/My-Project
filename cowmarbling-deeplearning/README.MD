@@ -2,8 +2,9 @@ cowmarbling-deeplearning/<br />
 ├── README.md                 # 프로젝트 설명<br />
 ├── requirements.txt          # 필요한 라이브러리 목록<br />
 ├── data/<br />
-│   ├── raw/                   # 원본 데이터 (수정 금지)<br />
-│   └── processed/             # 전처리된 데이터<br />
+│   ├── cow_1++<br />
+│   ├── cow_1<br />
+│   └── cow_3/             # 전처리된 데이터<br />
 ├── src/<br />
 │   ├── __init__.py<br />
 │   ├── model_use/camera_connect.py  # 카메라로 데이터 수집 후 분류 및 결과 출력 코드<br />
