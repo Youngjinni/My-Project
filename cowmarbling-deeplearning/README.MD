@@ -14,6 +14,7 @@ cowmarbling-deeplearning/<br />
 │   └── reports/               # PPT<br />
 <br />
 추가 요약<br />
+<br />
 cow_marbling_training.py<br />
 1. 데이터의 양이 약 2만장 정도로 학습에 필요한 데이터의 양이 절대적으로 부족함.<br />
 이를 해결하기 위해 데이터를 편집해 증강.<br />
