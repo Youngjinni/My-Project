@@ -6,7 +6,7 @@ cowmarbling-deeplearning/<br />
 │   └── processed/             # 전처리된 데이터<br />
 ├── src/<br />
 │   ├── __init__.py<br />
-│   ├── data_preprocessing.py  # 데이터 전처리 코드<br />
+│   ├── camera_connect.py  # 카메라로 데이터 수집 후 분류 및 결과 출력 코드<br />
 │   └── model_train.py         # 모델 학습 코드<br />
 ├── results/<br />
 │   ├── figures/               # 시각화 결과<br />
