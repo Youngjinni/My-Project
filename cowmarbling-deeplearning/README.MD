@@ -1,4 +1,4 @@
-project-name/<br />
+cowmarbling-deeplearning/<br />
 ├── README.md                 # 프로젝트 설명<br />
 ├── requirements.txt          # 필요한 라이브러리 목록<br />
 ├── data/<br />
