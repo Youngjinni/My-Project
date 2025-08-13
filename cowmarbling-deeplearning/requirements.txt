@@ -1,8 +1,11 @@
-Name : numpy<br />
-Version : 1.26.4<br /><br />
-Name: tensorflow<br />
-Version: 2.18.0<br /><br />
-Name: keras<br />
-Version: 3.6.0<br /><br />
-Name: opencv-python<br />
-Version: 4.10.0.84<br /><br />
+Name : numpy
+Version : 1.26.4
+
+Name: tensorflow
+Version: 2.18.0
+
+Name: keras
+Version: 3.6.0
+
+Name: opencv-python
+Version: 4.10.0.84
