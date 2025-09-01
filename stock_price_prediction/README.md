@@ -1,4 +1,4 @@
-*개요*
+개요
 이 프로젝트는 LSTM(Long Short-Trem Memory) 신경망을 활용하여 삼성전자(ticker : 005930.KS)의 종가를 예측하는 모델입니다.
 해당 모델은 TensorFlow 및 Keras를 기반으로 구현했습니다.
 
