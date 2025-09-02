@@ -34,4 +34,26 @@ data/<br />
 
 소고기 데이터셋.<br />
 1++, 1, 3 등급을 예로 학습시킴.<br />
+<br /><br /><br />
+summary<br />
 <br />
+cow_marbling_training.py<br />
+
+1. 데이터의 양이 약 2만장 정도로 학습에 필요한 데이터의 양이 절대적으로 부족함.<br /> It has 20,000 image datasets that is not enuogh.
+이를 해결하기 위해 데이터를 편집해 증강.<br />So, I edit this datasets to solve this problem. The solution is 
+2. 딥러닝 기반으로 ResNet50을 이용하여 전이학습 시도.<br />
+3. 학습결과 cow_marbling_resnet_model.h5 파일 생성.<br />
+<br />
+camera_connect.py<br />
+
+1. 카메라 연결.<br /> Connecting camera.
+2. 0.1초 간격으로 h5파일을 이용한 실시간 예측 실시.<br />
+3. 밝은 영역 강조를 통해 특징점 추출 어려움 완화.<br />
+4. 카메라 출력에서 빨간 박스로 고기 탐색 및 등급 출력.<br />
+5. 터미널에 등급 출력 및 확률 출력.<br />
+<br />
+data/<br />
+
+소고기 데이터셋.<br />
+1++, 1, 3 등급을 예로 학습시킴.<br />
+
